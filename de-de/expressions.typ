@@ -1,7 +1,13 @@
 #import "../common/callouts.typ": *
 
 = Ausdrücke
+Um gespeicherte Informationen verarbeiten zu können braucht es eine eindeutige Interpretation der gespeicherten Bits. Gleichzeitig soll beim Programmieren von der Hardwaredarstellung der Informationen abstrahiert werden. Dafür werden *Datentypen* definiert.
 
+#definition("Datentypen", [
+  Ein *Datentyp* (engl.: "data type") ist gekennzeichnet durch einen Wertebereich sowie Opeartionen auf diesem Wertebereich.
+])
+
+In Java sind primitiven Datentypen für Zahlen, Wahrheitswerte, Zeichen und Zeichenketten definiert:
 #definition("Ausdruck", [
   Ein Ausdruck (engl.: „expression“) ist ein Syntaxkonstrukt, das zur Beschreibung eines Wertes dient.
 ])
@@ -17,7 +23,7 @@
 
 == Literale
 
-Literale sind die gleinsten Elemente eines Ausdrucks. Zu den Literalen gehören: Zahlen, Booleans, Strings, Chars und Variablen.
+Literale sind die kleinsten Elemente eines Ausdrucks. In Java gibt es vordefinierte Datentypen Zu den Literalen gehören: Zahlen, Booleans, Strings, Chars und Variablen.
 
 Zahlen in Java sind entweder Ganzzahlen (Integers) oder Gleitkommazahlen (Floats, auch Fließkommazahl).
 Sowohl Integers als auch Floats gibt es in verschiedenen Größen. Alle Zahlen in Java werden mit einem Vorzeichen abgespeichert (Plus/Minus).

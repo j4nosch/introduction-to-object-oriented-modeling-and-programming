@@ -9,7 +9,7 @@
 #show link: underline
 #set page(numbering: "1")
 #set heading(numbering: "1.")
-#set text(14pt)
+#set text(14pt, lang: "de")
 
 #pagebreak()
 
@@ -41,3 +41,5 @@
   include file
   pagebreak()
 }
+
+#bibliography("../common/works.bib")

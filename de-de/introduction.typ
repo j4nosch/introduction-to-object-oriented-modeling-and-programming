@@ -20,6 +20,39 @@ Das Script hat das Ziel, Sie optimal durch die Vorlesung zu begleiten. Es ersetz
   "Ein Beispiel, welches auf bestimmte Grenzfälle oder häufige Fehler eingeht.",
 )
 
+== Was ist Modellierung?
+
+Bevor wir mit der Moddellirung mit UML anfangen, stellt sich die Frage: Was ist überhaupt ein Modell? Was ist Modellierung? Und warum sollten wir überhaupt Moddellirung nutzen?
+
+Ein Modell ist:
+- *Abbildung:* Basiert auf einem Original
+- *Reduktion:* Stellt nur die relevanten Eigenschaften dar
+- *Pragmatisch:* Das Modell beschreibt für bestimmte Fragestellungen das Original
+
+Modellierung ist der Prozess, indem ein System zu einem Modell umgewandelt wird.
+
+Warum überhaupt Modellierung? Die Probleme der realen Welt sind zu komplex, um sie in der gänze darzustellen. Stattdessen verwenden wir Modelle, um sie vereinfacht und struturiert darzustellen. Durch die graphische Darstellung in UML erhalten wir eine einfache Übersicht über die Teils sehr komplexe Struktur unserer Projekte. @kuhne2005model
+
+== Was ist Programmierung?
+
+#definition("Algorithmus (modern)")[
+  Unter einem Algorithmus versteht man eine präzise, endliche Verarbeitungsvorschrift, die so formuliert ist, dass die in der Vorschrift notierten Elementaroperationen von einer mechanisch oder elektronisch arbeitenden Maschine durchgeführt werden können.
+]
+
+#definition("Programm")[
+  Ein Programm ist ein Algorithmus in maschinenlesbarer Form.
+]
+
+#definition("Programmiersprache")[
+  Eine Programmiersprache ist ein notationelles System zur Beschreibung von Berechnungen in durch Maschinen und Menschen lesbarer Form.
+]
+
+In der Programmierung wird ein Programm geschrieben, welche einen Algorithmus in maschinenlesbarer Form beschreibt. Da man in der Regel nicht mit 0 und 1 ein Programm beschreiben möchte, verwendet man eine Programmiersprache, hier Java. Das Umwandeln der Programmiersprache in Bytecode nennt man compilieren.
+
+== Was ist objekt-orientierte Programmierung?
+
+Unsere Systeme bestehen aus Objekten, die im Austausch miteinander stehen. Wir modellieren diese Objekte und Beziehungen zueinander. Gleichartige Objekte fassen wir zu Klassen zusammen. @hesse2008
+
 == Source Code
 
 Die Quelldateien zu diesem Script können auf #link("https://github.com/Kiyotoko/introduction-to-object-oriented-modeling-and-programming.git")[GitHub] gefunden werden.

@@ -89,7 +89,7 @@ if (value < 0) {
     value = -value;
   else
     // Kommentar
-  System.out.println(value)
+  System.out.println(value);
   ```
 
   Dies ist semantisch äquivalent zu dem folgenden Code mit Block Statements:
@@ -100,7 +100,7 @@ if (value < 0) {
     value = -value;
   } else {
     // Kommentar
-    System.out.println(value)
+    System.out.println(value);
   }
   ```
 
